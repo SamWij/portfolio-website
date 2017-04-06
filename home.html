@@ -6,103 +6,91 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- google fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono" rel="stylesheet">
-
-  <!-- normalize css -->
-  <link rel="stylesheet" href="css/normalize.css">
-
-  <!-- skeleton css -->
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/style.css">
 
   <title>Samantha Wijesinha</title>
 </head>
 <!--HEADER-->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h1>Samantha Wijesinha</h1>
-        <h4 class="minor">digital project manager // web developer</h4>
-        <p class="sub-heading">
-          I am a project manager based in Melbourne, Australia.
-          I have recently embarked on a journey into web development. This site contains my projects and other musings!</p>
-        <nav>
-          <a href="cv.html" class="button">Resume</a>
-        </nav>
-      </div>
-    </div>
-  </div><!--end of .container-->
+<header class="container is-fluid">
+  <h1 class="title is-1">Samantha Wijesinha</h1>
+  <h4 class="minor">digital project manager // web developer</h4>
+  <p class="sub-heading">
+    Hi my name is Sam, I am a Digital Project Manager and Web Developer based in Melbourne Australia.  
+  </p>
+
+  <div><a href="resume.html" class="button is-primary">Resume</a></div>
 </header>
 
-<section class="projects">
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h3>My Projects</h3>
+<section class="projects container is-fluid">
+  <div class="section-title">
+    <h3 class="title is-3">Projects</h3>
+  </div>
+  <div class="row">
+    <div class="box">
+      <div class="content">
+        <h4 class="title is-4">Tic Tac Toe</h4>
+        <h5 class="title is-5">javaScript, jQuery, HTML, CSS</h5>
+        <p>My first project using javaSript and jQuery.
+        This is a basic 3x3 Tic Tac Toe game in a zombie theme. I also experimented with anime.js to animate the board.</p>
+        <a href="https://github.com/SamWij/tic-tac-toe">View Source Code</a>
+        <a href="https://samwij.github.io/tic-tac-toe/">View Project</a>
       </div>
     </div>
 
-  <div class="row">
-    <div class="one-half column project">
-      <h4>Tic Tac Toe</h4>
-      <h5>javaScript, jQuery, HTML, CSS</h5>
-      <p>My first project using javaSript and jQuery.
-      This is a basic 3x3 Tic Tac Toe game in a zombie theme. I also experimented with anime.js to animate the board.</p>
-      <a href="https://github.com/SamWij/tic-tac-toe">View Source Code</a>
-      <a href="https://samwij.github.io/tic-tac-toe/">View Project</a>
+    <div class="box">
+      <div class="content">
+        <h4 class="title is-4">Apprenticeship Database</h4>
+        <h5 class="title is-5">javaScript, jQuery, Ruby, Rails, Bootstrap, Heroku</h5>
+        <p>This is a CRUD Application developed in Ruby on Rails. The application enables apprentices to login and create
+        a profile.  The idea came from the lack of a suitable online platform for apprentices.</p>
+        <a href="https://github.com/SamWij/apprentice_app">View Source Code</a>
+        <a href="https://apricot-cobbler-42432.herokuapp.com">View Project</a>
+      </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="box">
+      <div class="content">
+        <h4 class="title is-4">Melbourne Property Planning App</h4>
+        <h5 class="title is-5">javaScript, jQuery, Ruby, Rails, Heroku</h5>
+        <p>This is a CRUD Application developed in Ruby on Rails. The application enables apprentices to login and create
+        a profile.  The idea came from the lack of a suitable online platform for apprentices.</p>
+        <a href="https://github.com/SamWij/apprentice_app">View Source Code</a>
+        <a href="https://apricot-cobbler-42432.herokuapp.com">View Project</a>
+      </div>
     </div>
 
-    <div class="one-half column project">
-      <h4>Apprenticeship Database</h4>
-        <h5>javaScript, jQuery, Ruby, Sinatra, Heroku</h5>
-        <p>This is the second project during the Web Development Immersive Program.
-           This is a web app for Apprentices to create job profiles.</p>
-        <a href="">View Source Code</a>
-        <a href="">View Project</a>
+    <div class="box">
+      <div class="content">
+        <h4 class="title is-4">TBA</h4>
+        <h5 class="title is-5">javaScript, jQuery, Ruby, Rails, Heroku</h5>
+        <p>This is a CRUD Application developed in Ruby on Rails. The application enables apprentices to login and create
+        a profile.  The idea came from the lack of a suitable online platform for apprentices.</p>
+        <a href="https://github.com/SamWij/apprentice_app">View Source Code</a>
+        <a href="https://apricot-cobbler-42432.herokuapp.com">View Project</a>
+      </div>
     </div>
-  </div><!--end of .row-->
+  </div>
 
-  <div class="row">
-    <div class="one-half column project">
-      <h4>Pac Man</h4>
-      <h5>javaScript, jQuery, BackboneJS, HTML, CSS</h5>
-      <p>A project completed in my spare time to practice using Backbone.js.</p>
-      <a href="">View Source Code</a>
-      <a href="">View Project</a>
-    </div>
-
-    <div class="one-half column project">
-      <h4>TBC Project 3</h4>
-      <h5>javaScript, jQuery, Ruby, Sinatra, Heroku</h5>
-      <p>This is the second project during the Web Development Immersive Program.</p>
-      <a href="">View Source Code</a>
-      <a href="">View Project</a>
-    </div>
-  </div><!--end of .row-->
 </section>
 
 
 <!--FOOTER-->
-<section class="footer" id="footer">
-  <div class="container">
 
-    <div class="row">
-      <div class="twelve columns">
-      <a href="https://github.com/SamWij"><img class="social" src="images/github2.png" alt="git hub"></a>
-      <a href="https://www.linkedin.com/in/samwijesinha/"><img class="social" src="images/linkedin.png" alt="linkedin"></a>
-      <a href="https://twitter.com/CTRL_ALT_DEL"><img class="social" src="images/twitter.png" alt="twitter"></a>
-      </div>
-    </div><!--end of .row-->
+<div class="container is-fluid">
+  <footer>
+    <a href="https://github.com/SamWij"><img class="social icon is-medium" src="images/github2.png" alt="git hub"></a>
+    <a href="https://www.linkedin.com/in/samwijesinha/"><img class="social icon is-medium" src="images/linkedin.png" alt="linkedin"></a>
+    <a href="https://twitter.com/CTRL_ALT_DEL"><img class="social icon is-medium" src="images/twitter.png" alt="twitter"></a>
+    <p class="creator">&copy; samwij 2017.</p>
+  </footer>
+</div><!--end of .container-->
 
-    <div class="row">
-      <div class="twelve columns">
-        <p class="creator">&copy; samwij 2017.</p>
-      </div>
-    </div><!--end of .row-->
-  </div><!--end of .container-->
-</section>
 
 </body>
 </html>
