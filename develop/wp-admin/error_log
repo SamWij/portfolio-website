@@ -1,0 +1,1 @@
+[12-Feb-2017 07:31:08 UTC] PHP Fatal error:  Call to undefined function apply_filters() in /home/samwij/public_html/develop/wp-includes/load.php on line 316
