@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-image {
+  background-color: #1E1E20;
+}
+.is-outlined {
+  background-color:transparent;
+  color:#ECF0F1;
+}
+.hero-cta {
+  padding: 30px 0;
+  background-color:#F0F0F0;
+}
+.panel-block.section p {
+  font-size: 17px;
+  line-height: 1.4;
+  color:#95A5A6;
+  height: 100px;
+  padding: 0;
+}
+
+.panel-block:hover {
+  border: 1px solid #E74B48;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+.section.main {
+  background-color:#F0F0F0;
+}
+
+.project-icon {
+  font-size: 30px;
+  padding-top: 30px;
+}
+.sub-heading {
+  color: #E74B48;
+
+}
+
+.title-head {
+  color: #ECF0F1;
+
+}
+
+.about-sub {
+  padding-bottom: 40px;
+}
+
+/* mouse over link */
+.button:hover {
+    color: #E74B48;
+}
+
+.project-title {
+  color: #E74B48;
+  text-align: center;
+}
+
+i {
+  color: #E74B48;
+}
