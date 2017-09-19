@@ -4,10 +4,7 @@
   text-align: center;
 }
 
-.hero  {
-  height: 200px;
-  background-color: #1E1E20;
-}
+
 
 .resume_title {
   color:#ECF0F1;
@@ -38,7 +35,6 @@ h3 {
   position: relative;
   margin-bottom: 1px;
   width: 100%;
-  color: #fff;
   overflow: hidden;
 }
 input {
@@ -59,14 +55,12 @@ label {
 .tab-content {
   max-height: 0;
   overflow: hidden;
-  background: #1abc9c;
+  background: #F0F0F0;
   -webkit-transition: max-height .35s;
   -o-transition: max-height .35s;
   transition: max-height .35s;
 }
- .tab-content {
-  background: grey;
-}
+
 .tab-content p {
   margin: 1em;
 }
@@ -112,8 +106,12 @@ input[type=radio]:checked + label::after {
 
 .company {
   text-decoration: underline;
+  color: #F0F0F0;
 }
 
+.education {
+  padding-bottom: 10px;
+}
 .tag {
   margin-bottom: 10px;
   padding: 15px;

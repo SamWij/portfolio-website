@@ -1,29 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Samantha Wijesinha | Web Developer</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/bulma.css">
   <link rel="stylesheet" type="text/css" href="css/hero.css">
-  <link rel="stylesheet" type="text/css" href="css/resume.css">
-
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
 
 </head>
 <body>
-<div class="container is-fluid">
-  <section class="hero">
+  <section class="hero is-medium header-image">
+    <div class="hero-head">
+      <header class="nav">
+        <div class="container">
+          <span class="nav-toggle"> <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu">
+            <span class="nav-item">
+                <a href="home.html" class="button is-outlined">
+                <span class="icon">
+                  <i class="fa fa-home"></i>
+                </span>
+                <span>Home</span>
+              </a>
+            </span>
+
+            <span class="nav-item">
+              <a href="resume.html" class="button is-outlined">
+                <span class="icon">
+                  <i class="fa fa-code"></i>
+                </span>
+                <span>Resume</span>
+              </a>
+            </span>
+            <span class="nav-item">
+              <a href="https://www.linkedin.com/in/samwijesinha/" class="button is-outlined">
+                <span class="icon">
+                  <i class="fa fa-linkedin-square"></i>
+                </span>
+                <span>Linkedin</span>
+              </a>
+            </span>
+            <span class="nav-item">
+              <a href="https://github.com/SamWij" class="button is-outlined">
+                <span class="icon">
+                  <i class="fa fa-github"></i>
+                </span>
+                <span>Git Hub</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </header>
+    </div>
     <div class="hero-body">
-      <div class="resume container">
-        <h1 class="title resume_title">
-          SAMANTHA WIJESINHA
+      <div class="container has-text-centered">
+        <h1 class="title-head title is-1 is-spaced">
+          Samantha Wijesinha
         </h1>
-        <h2 class="subtitle resume_subtitle">
-          Web Developer
+        <h2 class="subtitle is-2 is-spaced sub-heading">
+           Web Developer
         </h2>
+
+        <p class="subtitle is-4 is-spaced about-sub">
+          I am a Web Developer based in Melbourne Australia.
+        </p>
+        <a href="images/resume.pdf" class="button is-outlined">
+          <span class="icon">
+            <i class="fa fa-floppy-o"></i>
+          </span>
+          <span>Download Resume</span>
+        </a>
       </div>
     </div>
   </section>
@@ -31,18 +84,22 @@
     <div class="columns">
       <div class="column is-one-quarter contact">
         <h3>Contact</h3>
+        <div>
           <span class="icon">
-            <i class="fa fa-mobile">0411795987</i>
+            <i class="fa fa-phone"></i>
           </span>
+          <strong>+61 411 795 987</strong>
+        </div>
+        <div>
           <span class="icon">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o"></i>
           </span>
-          <span class="icon">
-            <i class="fa fa-github"></i>
-          </span>
-          <span class="icon">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-          </span>
+          <strong>
+            <a href = "mailto:sam.wijesinha@gmail.com">
+              <strong>sam.wijesinha@gmail.com</strong>
+            </a></strong>
+          </div>
+
           <div>
             <h3>Skills</h3>
             <span class="tag is-primary">HTML</span>
@@ -50,24 +107,47 @@
             <span class="tag is-primary">Javascript</span><br>
             <span class="tag is-primary">JQuery</span>
             <span class="tag is-primary">Nodejs</span>
-            <span class="tag is-primary">Ruby</span><br>
+            <span class="tag is-primary">Express</span>
+            <span class="tag is-primary">Ruby</span>
+            <span class="tag is-primary">Sinatra</span>
             <span class="tag is-primary">Ruby on Rails</span>
             <span class="tag is-primary">Postgres</span>
+            <span class="tag is-primary">MongoDB</span>
+            <span class="tag is-primary">API</span>
+            <span class="tag is-primary">Ajax</span>
           </div>
           <div>
             <h3>Education</h3>
-              <h4>General Assembly</h4>
+            <div class="education">
+              <h4>Web Development Immersive</h4>
+              <p>General Assembly, Melbourne/2017</p>
+            </div>
+            <div class="education">
               <h4>PRINCE2 Agile Certification</h4>
+              <p>Project Laneways, Melbourne/2016</p>
+            </div>
+            <div class="education">
               <h4>Graduate Certificate of IT</h4>
+              <p>Swinburne University, Melbourne/2017</p>
+            </div>
+            <div class="education">
               <h4>Bachelor of Business</h4>
+              <p>RMIT, Melbourne/2006</p>
+            </div>
           </div>
       </div>
 
       <div class="column auto profile">
         <h3>Profile</h3>
-        <p>I have recently completed a Full Stack Web Development Immersive program at General Assembly which has taught me the fundamentals of web development.
-            I am seeking an opportunity where I can use my Project Management and Web Development Skills.
-        </p>
+        <p>I’m a Digital Project Manager with a passion for web development.
+          Recently I decided to take the plunge into full time web development,
+          and completed a 12 week Web Development Immersive Program at General Assembly.
+          You can check out my projects and side projects on my GitHub Account and profile website.</p><br>
+
+          <p>I have been fortunate enough to be selected as a Web Developer for the Code for Australia,
+            Code for Vic II program and am currently working in a team of 3 with the Disputes Settlement Centre
+             of Victoria to understand their current landscape and develop a tool to assist people in resolving disputes
+             and understand their rights and responsibilities.</p>
         <div class="wrapper">
           <h3>Work Experience</h3>
 
@@ -79,7 +159,7 @@
                 <span class="jobtitle">Web Developer</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>A Code for Victoria II Fellow within the Disputes Settlement Center of Victoria. A developer in a team of 3 creating a human centered designed solution to assist clients self-resolve their disputes.</p>
               </div>
             </div>
             <div class="tab">
@@ -89,7 +169,7 @@
                 <span class="jobtitle">Web Development Immersive Student</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>A 12 week intensive Web Development Course learning the fundamentals in front end and backend web development.</p>
               </div>
             </div>
             <div class="tab">
@@ -99,7 +179,7 @@
                 <span class="jobtitle">Digital Project Manager</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>Manager of the Project Management Office, and initiating and leading the Digital Program (Salesforce, Sitecore implementation).</p>
               </div>
             </div>
             <div class="tab">
@@ -109,7 +189,7 @@
                 <span class="jobtitle">Senior Digital Program Co-ordinator</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>A 12-month contract to implement Program Reporting and governance on the Digital Transformation Program ($12M+).</p>
               </div>
             </div>
             <div class="tab">
@@ -119,7 +199,7 @@
                 <span class="jobtitle">Senior Program Co-ordinator</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>A 12-month contract to implement Program Governance across a new strategic program to integrate the workforce management using mobile and SAP Technology.</p>
               </div>
             </div>
             <div class="tab">
@@ -129,7 +209,8 @@
                 <span class="jobtitle">Project Manager - Merchant Energy</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>The delivery of small to medium technology projects within the merchant energy portfolio (gas and electricity generation) utilising a mixture of offshore and onshore technical teams.
+</p>
               </div>
             </div>
             <div class="tab">
@@ -139,7 +220,7 @@
                 <span class="jobtitle">Portfolio Analyst</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>A 6-month contract providing project governance over the BAU Project portfolio.  </p>
               </div>
             </div>
             <div class="tab">
@@ -149,17 +230,17 @@
                 <span class="jobtitle">Portfolio Analyst</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>A 6-month contract (extended) providing project governance over the Business Banking Portfolio.</p>
               </div>
             </div>
             <div class="tab">
               <input id="tab-nine" type="checkbox" name="tabs">
               <label for="tab-nine">
-                <span class="company">Suzlon</span> -
+                <span class="company">Suzlon Energy Australia</span> -
                 <span class="jobtitle">Project Systems Manager</span>
               </label>
               <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                <p>Business owner for all Project Systems (Primavera Scheduling, SAP Project Systems, Meridian Document Control) involved in managing the delivery of Windfarms across South Australia and the ACT.</p>
               </div>
             </div>
           </div>
@@ -170,8 +251,26 @@
   </div>
 
 </div>
-
-
-
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>
+          &copy; samwij 2017
+      </p>
+      <p>
+        <a class="icon" href="https://github.com/SamWij">
+          <i class="fa fa-github"></i>
+        </a>
+        <a class="icon" href="https://www.linkedin.com/in/samwijesinha/">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a class="icon" href="https://twitter.com/CTRL_ALT_DEL">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>
+<script async type="text/javascript" src="js/portfolio.js"></script>
 </body>
 </html>

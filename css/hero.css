@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-p {
+p,
+strong {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -42,7 +43,7 @@ h2 {
 
 .project-icon {
   font-size: 30px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .sub-heading {
   color: #E74B48;
@@ -55,7 +56,7 @@ h2 {
 }
 
 .about-sub {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 /* mouse over link */
